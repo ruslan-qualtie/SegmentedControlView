@@ -22,6 +22,24 @@
 		C35B78B329F69E8B00F3E151 /* Shape+FillBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78B229F69E8B00F3E151 /* Shape+FillBorder.swift */; };
 		C35B78B529F69F2600F3E151 /* SimpleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78B429F69F2600F3E151 /* SimpleItem.swift */; };
 		C35B78B729F6BDDC00F3E151 /* ControlsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78B629F6BDDC00F3E151 /* ControlsDemoView.swift */; };
+		C35B78B929F6D4E800F3E151 /* MultiStateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78B829F6D4E800F3E151 /* MultiStateButtonStyle.swift */; };
+		C35B78BB29F6D52600F3E151 /* ButtonColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78BA29F6D52600F3E151 /* ButtonColorStyle.swift */; };
+		C35B78BD29F6D62100F3E151 /* ButtonContentSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78BC29F6D62100F3E151 /* ButtonContentSize.swift */; };
+		C35B78BF29F6D65F00F3E151 /* ButtonContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78BE29F6D65F00F3E151 /* ButtonContentMode.swift */; };
+		C35B78C129F6D69E00F3E151 /* ButtonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78C029F6D69E00F3E151 /* ButtonShape.swift */; };
+		C35B78C329F6D71A00F3E151 /* ButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78C229F6D71A00F3E151 /* ButtonLabel.swift */; };
+		C35B78C529F6D75B00F3E151 /* LoadingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78C429F6D75B00F3E151 /* LoadingKey.swift */; };
+		C35B78C729F6D79400F3E151 /* ButtonLabelIconPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78C629F6D79400F3E151 /* ButtonLabelIconPosition.swift */; };
+		C35B78C929F6D7CA00F3E151 /* ButtonLabelPacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78C829F6D7CA00F3E151 /* ButtonLabelPacking.swift */; };
+		C35B78CB29F6D81F00F3E151 /* LoadingIndicator+macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78CA29F6D81F00F3E151 /* LoadingIndicator+macOS.swift */; };
+		C35B78CD29F6D85300F3E151 /* NSProgressIndicator+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78CC29F6D85300F3E151 /* NSProgressIndicator+extensions.swift */; };
+		C35B78CF29F6D89900F3E151 /* IconLeftLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78CE29F6D89900F3E151 /* IconLeftLabel.swift */; };
+		C35B78D129F6D8DE00F3E151 /* IconRightLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78D029F6D8DE00F3E151 /* IconRightLabel.swift */; };
+		C35B78D329F6D93C00F3E151 /* NoIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78D229F6D93C00F3E151 /* NoIconLabel.swift */; };
+		C35B78D529F6D97D00F3E151 /* IconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78D429F6D97D00F3E151 /* IconLabel.swift */; };
+		C35B78D829F6DA7900F3E151 /* SegmentControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78D729F6DA7900F3E151 /* SegmentControlButton.swift */; };
+		C35B78DA29F6DABD00F3E151 /* ActionCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78D929F6DABD00F3E151 /* ActionCompletion.swift */; };
+		C35B78DC29F6DAE800F3E151 /* assertionFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78DB29F6DAE800F3E151 /* assertionFailure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +60,24 @@
 		C35B78B229F69E8B00F3E151 /* Shape+FillBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shape+FillBorder.swift"; sourceTree = "<group>"; };
 		C35B78B429F69F2600F3E151 /* SimpleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleItem.swift; sourceTree = "<group>"; };
 		C35B78B629F6BDDC00F3E151 /* ControlsDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsDemoView.swift; sourceTree = "<group>"; };
+		C35B78B829F6D4E800F3E151 /* MultiStateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiStateButtonStyle.swift; sourceTree = "<group>"; };
+		C35B78BA29F6D52600F3E151 /* ButtonColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonColorStyle.swift; sourceTree = "<group>"; };
+		C35B78BC29F6D62100F3E151 /* ButtonContentSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContentSize.swift; sourceTree = "<group>"; };
+		C35B78BE29F6D65F00F3E151 /* ButtonContentMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContentMode.swift; sourceTree = "<group>"; };
+		C35B78C029F6D69E00F3E151 /* ButtonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonShape.swift; sourceTree = "<group>"; };
+		C35B78C229F6D71A00F3E151 /* ButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLabel.swift; sourceTree = "<group>"; };
+		C35B78C429F6D75B00F3E151 /* LoadingKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingKey.swift; sourceTree = "<group>"; };
+		C35B78C629F6D79400F3E151 /* ButtonLabelIconPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLabelIconPosition.swift; sourceTree = "<group>"; };
+		C35B78C829F6D7CA00F3E151 /* ButtonLabelPacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLabelPacking.swift; sourceTree = "<group>"; };
+		C35B78CA29F6D81F00F3E151 /* LoadingIndicator+macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingIndicator+macOS.swift"; sourceTree = "<group>"; };
+		C35B78CC29F6D85300F3E151 /* NSProgressIndicator+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSProgressIndicator+extensions.swift"; sourceTree = "<group>"; };
+		C35B78CE29F6D89900F3E151 /* IconLeftLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconLeftLabel.swift; sourceTree = "<group>"; };
+		C35B78D029F6D8DE00F3E151 /* IconRightLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconRightLabel.swift; sourceTree = "<group>"; };
+		C35B78D229F6D93C00F3E151 /* NoIconLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIconLabel.swift; sourceTree = "<group>"; };
+		C35B78D429F6D97D00F3E151 /* IconLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconLabel.swift; sourceTree = "<group>"; };
+		C35B78D729F6DA7900F3E151 /* SegmentControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlButton.swift; sourceTree = "<group>"; };
+		C35B78D929F6DABD00F3E151 /* ActionCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCompletion.swift; sourceTree = "<group>"; };
+		C35B78DB29F6DAE800F3E151 /* assertionFailure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assertionFailure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +110,13 @@
 		C35B788E29F6862000F3E151 /* SegmentControl */ = {
 			isa = PBXGroup;
 			children = (
+				C35B78D629F6DA1500F3E151 /* MultiStateButton */,
 				C35B78AD29F69DF100F3E151 /* PickerPlus */,
 				C35B78A629F68F9200F3E151 /* DefaultPicker */,
 				C35B788F29F6862000F3E151 /* SegmentControlApp.swift */,
 				C35B78B629F6BDDC00F3E151 /* ControlsDemoView.swift */,
 				C35B789E29F686B400F3E151 /* SegmentedControlView.swift */,
+				C35B78D729F6DA7900F3E151 /* SegmentControlButton.swift */,
 				C35B78A029F6870B00F3E151 /* Color+Palette.swift */,
 				C35B789329F6862200F3E151 /* Assets.xcassets */,
 				C35B789829F6862200F3E151 /* SegmentControl.entitlements */,
@@ -116,6 +154,30 @@
 				C35B78B229F69E8B00F3E151 /* Shape+FillBorder.swift */,
 			);
 			path = PickerPlus;
+			sourceTree = "<group>";
+		};
+		C35B78D629F6DA1500F3E151 /* MultiStateButton */ = {
+			isa = PBXGroup;
+			children = (
+				C35B78B829F6D4E800F3E151 /* MultiStateButtonStyle.swift */,
+				C35B78BA29F6D52600F3E151 /* ButtonColorStyle.swift */,
+				C35B78BC29F6D62100F3E151 /* ButtonContentSize.swift */,
+				C35B78BE29F6D65F00F3E151 /* ButtonContentMode.swift */,
+				C35B78C029F6D69E00F3E151 /* ButtonShape.swift */,
+				C35B78C229F6D71A00F3E151 /* ButtonLabel.swift */,
+				C35B78C429F6D75B00F3E151 /* LoadingKey.swift */,
+				C35B78C629F6D79400F3E151 /* ButtonLabelIconPosition.swift */,
+				C35B78C829F6D7CA00F3E151 /* ButtonLabelPacking.swift */,
+				C35B78CA29F6D81F00F3E151 /* LoadingIndicator+macOS.swift */,
+				C35B78CC29F6D85300F3E151 /* NSProgressIndicator+extensions.swift */,
+				C35B78CE29F6D89900F3E151 /* IconLeftLabel.swift */,
+				C35B78D029F6D8DE00F3E151 /* IconRightLabel.swift */,
+				C35B78D229F6D93C00F3E151 /* NoIconLabel.swift */,
+				C35B78D429F6D97D00F3E151 /* IconLabel.swift */,
+				C35B78D929F6DABD00F3E151 /* ActionCompletion.swift */,
+				C35B78DB29F6DAE800F3E151 /* assertionFailure.swift */,
+			);
+			path = MultiStateButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,19 +250,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35B78D129F6D8DE00F3E151 /* IconRightLabel.swift in Sources */,
+				C35B78D829F6DA7900F3E151 /* SegmentControlButton.swift in Sources */,
 				C35B78B529F69F2600F3E151 /* SimpleItem.swift in Sources */,
+				C35B78C729F6D79400F3E151 /* ButtonLabelIconPosition.swift in Sources */,
+				C35B78BF29F6D65F00F3E151 /* ButtonContentMode.swift in Sources */,
+				C35B78B929F6D4E800F3E151 /* MultiStateButtonStyle.swift in Sources */,
 				C35B78AF29F69E0200F3E151 /* PickerPlus.swift in Sources */,
 				C35B78AC29F691E100F3E151 /* StyledPicker.swift in Sources */,
+				C35B78BD29F6D62100F3E151 /* ButtonContentSize.swift in Sources */,
+				C35B78DC29F6DAE800F3E151 /* assertionFailure.swift in Sources */,
+				C35B78CB29F6D81F00F3E151 /* LoadingIndicator+macOS.swift in Sources */,
 				C35B78A329F68F4B00F3E151 /* DefaultPickerExamples.swift in Sources */,
+				C35B78BB29F6D52600F3E151 /* ButtonColorStyle.swift in Sources */,
 				C35B789029F6862000F3E151 /* SegmentControlApp.swift in Sources */,
+				C35B78CF29F6D89900F3E151 /* IconLeftLabel.swift in Sources */,
 				C35B78B129F69E4F00F3E151 /* VerticalItem.swift in Sources */,
 				C35B78A829F68FD900F3E151 /* Vehicles.swift in Sources */,
 				C35B789F29F686B400F3E151 /* SegmentedControlView.swift in Sources */,
+				C35B78DA29F6DABD00F3E151 /* ActionCompletion.swift in Sources */,
 				C35B78AA29F6908300F3E151 /* PickerLimitations.swift in Sources */,
 				C35B78A129F6870B00F3E151 /* Color+Palette.swift in Sources */,
+				C35B78C529F6D75B00F3E151 /* LoadingKey.swift in Sources */,
+				C35B78D529F6D97D00F3E151 /* IconLabel.swift in Sources */,
+				C35B78C929F6D7CA00F3E151 /* ButtonLabelPacking.swift in Sources */,
+				C35B78D329F6D93C00F3E151 /* NoIconLabel.swift in Sources */,
 				C35B78A529F68F8100F3E151 /* OwnedVehicles.swift in Sources */,
 				C35B78B329F69E8B00F3E151 /* Shape+FillBorder.swift in Sources */,
+				C35B78C329F6D71A00F3E151 /* ButtonLabel.swift in Sources */,
+				C35B78CD29F6D85300F3E151 /* NSProgressIndicator+extensions.swift in Sources */,
 				C35B78B729F6BDDC00F3E151 /* ControlsDemoView.swift in Sources */,
+				C35B78C129F6D69E00F3E151 /* ButtonShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
