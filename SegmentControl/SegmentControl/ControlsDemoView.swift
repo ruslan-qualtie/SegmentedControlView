@@ -8,14 +8,11 @@ struct ControlsDemoView: View {
     
     var body: some View {
         SegmentedControlView(selection: $selection, segmentsCount: 3) { index in
-            Button(action: { selection = index }) {
-                Image(systemName: icons[index])
-                Text(titles[index])
-            }
-            .font(.system(size: 16))
-            .foregroundColor(.iconButtonTitle)
-            .frame(width: 116, height: 44)
-            .buttonStyle(.plain)
+            SegmentControlButton(
+                title: titles[index],
+                icon: icons[index],
+                action: { selection = index }
+            )
         }
         Text("Value: \(titles[selection])")
             .font(.largeTitle)

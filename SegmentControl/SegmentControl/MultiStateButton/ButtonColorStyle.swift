@@ -73,3 +73,13 @@ struct TintedDestructiveColorStyle: ButtonColorStyle {
     var backgroundHoverColor: Color = .init("red-4").opacity(0.15)
     var backgroundActiveColor: Color = .init("red-4").opacity(0.20)
 }
+
+struct SegmentControlColorStyle: ButtonColorStyle {
+    var loadingIndicatorColor: Color = .clear
+    var foregroundDefaultColor: Color = .init("geekblue-3")
+    var foregroundDisabledColor: Color = .clear
+    var backgroundDefaultColor: Color = .clear
+    var backgroundDisabledColor: Color = .clear
+    var backgroundHoverColor: Color = .clear
+    var backgroundActiveColor: Color = .clear
+}
