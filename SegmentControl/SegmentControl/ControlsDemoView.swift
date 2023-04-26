@@ -29,7 +29,6 @@ struct ControlsDemoView: View {
             ResultsTabSelectorView(selectedTab: $selectedTab)
                 .onChange(of: selection) { selectedTab = ResultsTab.allCases[$0] }
                 .onChange(of: selectedTab) { selection = ResultsTab.allCases.firstIndex(of: $0)! }
-                .animation(.easeInOut, value: selectedTab)
         }
         .padding(20)
         .overlay(

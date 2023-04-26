@@ -2,6 +2,12 @@ import SwiftUI
 
 struct ResultsTabSelectorView: View {
     @Binding var selectedTab: ResultsTab
+    
+    private var borderView: some View {
+        RoundedRectangle(cornerRadius: 8.0, style: .circular)
+            .stroke(Color.iconButtonBackground, lineWidth: 2)
+            .padding(1)
+    }
 
     var body: some View {
         HStack(spacing: 0) {
@@ -24,11 +30,8 @@ struct ResultsTabSelectorView: View {
                 action: showMetrics
             )
         }
-        .background(
-            RoundedRectangle(cornerRadius: 8.0, style: .circular)
-                .stroke(Color.iconButtonBackground, lineWidth: 2)
-                .padding(1)
-        )
+        .background(borderView)
+        .animation(.easeInOut, value: selectedTab)
     }
 
     private func showStatsAndCharts() {
