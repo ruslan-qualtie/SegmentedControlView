@@ -1,3 +1,6 @@
+// https://blog.logrocket.com/build-swiftui-segmented-customizable-control/
+// https://github.com/CodingAleCR/picker-plus-swift
+
 import SwiftUI
 
 public struct PickerPlus<Data, Content> : View where Data: Hashable, Content: View {

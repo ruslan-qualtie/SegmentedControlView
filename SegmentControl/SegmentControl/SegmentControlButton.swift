@@ -25,7 +25,7 @@ struct SegmentControlButton: View {
 }
 
 #if DEBUG
-public struct PlainButton_Previews: PreviewProvider {
+public struct SegmentControlButton_Previews: PreviewProvider {
     public static var previews: some View {
         SegmentControlButton(
             title: "History",

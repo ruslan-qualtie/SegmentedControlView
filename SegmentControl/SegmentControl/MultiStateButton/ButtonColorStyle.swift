@@ -83,3 +83,23 @@ struct SegmentControlColorStyle: ButtonColorStyle {
     var backgroundHoverColor: Color = .clear
     var backgroundActiveColor: Color = .clear
 }
+
+struct SegmentButtonColorStyle: ButtonColorStyle {
+    var loadingIndicatorColor: Color = .clear
+    var foregroundDefaultColor: Color = .init("geekblue-3")
+    var foregroundDisabledColor: Color = .clear
+    var backgroundDefaultColor: Color = .clear
+    var backgroundDisabledColor: Color = .clear
+    var backgroundHoverColor: Color = .init("geekblue-4").opacity(0.1)
+    var backgroundActiveColor: Color = .init("geekblue-4").opacity(0.15)
+}
+
+struct SelectedSegmentButtonColorStyle: ButtonColorStyle {
+    var loadingIndicatorColor: Color = .clear
+    var foregroundDefaultColor: Color = .init("geekblue-3")
+    var foregroundDisabledColor: Color = .clear
+    var backgroundDefaultColor: Color = .init("selected-segment")
+    var backgroundDisabledColor: Color = .clear
+    var backgroundHoverColor: Color = .init("selected-segment")
+    var backgroundActiveColor: Color = .init("selected-segment")
+}

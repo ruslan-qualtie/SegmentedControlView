@@ -40,6 +40,14 @@
 		C35B78D829F6DA7900F3E151 /* SegmentControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78D729F6DA7900F3E151 /* SegmentControlButton.swift */; };
 		C35B78DA29F6DABD00F3E151 /* ActionCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78D929F6DABD00F3E151 /* ActionCompletion.swift */; };
 		C35B78DC29F6DAE800F3E151 /* assertionFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78DB29F6DAE800F3E151 /* assertionFailure.swift */; };
+		C35B78DF29F6E50900F3E151 /* SegmentControl+macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B78DE29F6E50900F3E151 /* SegmentControl+macOS.swift */; };
+		C3A8E47629F832980079680D /* ResultsTabSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A8E47529F832980079680D /* ResultsTabSelectorView.swift */; };
+		C3A8E47829F832D70079680D /* ResultsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A8E47729F832D70079680D /* ResultsTab.swift */; };
+		C3A8E47A29F8330F0079680D /* OldSegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A8E47929F8330F0079680D /* OldSegmentButton.swift */; };
+		C3A8E47C29F833520079680D /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A8E47B29F833520079680D /* Icons.swift */; };
+		C3A8E47E29F834290079680D /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A8E47D29F834290079680D /* PreviewContainer.swift */; };
+		C3A8E48029F834CA0079680D /* HoverColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A8E47F29F834CA0079680D /* HoverColor.swift */; };
+		C3A8E48229F835540079680D /* SegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A8E48129F835540079680D /* SegmentButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +86,14 @@
 		C35B78D729F6DA7900F3E151 /* SegmentControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlButton.swift; sourceTree = "<group>"; };
 		C35B78D929F6DABD00F3E151 /* ActionCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCompletion.swift; sourceTree = "<group>"; };
 		C35B78DB29F6DAE800F3E151 /* assertionFailure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assertionFailure.swift; sourceTree = "<group>"; };
+		C35B78DE29F6E50900F3E151 /* SegmentControl+macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentControl+macOS.swift"; sourceTree = "<group>"; };
+		C3A8E47529F832980079680D /* ResultsTabSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTabSelectorView.swift; sourceTree = "<group>"; };
+		C3A8E47729F832D70079680D /* ResultsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTab.swift; sourceTree = "<group>"; };
+		C3A8E47929F8330F0079680D /* OldSegmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldSegmentButton.swift; sourceTree = "<group>"; };
+		C3A8E47B29F833520079680D /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		C3A8E47D29F834290079680D /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
+		C3A8E47F29F834CA0079680D /* HoverColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverColor.swift; sourceTree = "<group>"; };
+		C3A8E48129F835540079680D /* SegmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +126,8 @@
 		C35B788E29F6862000F3E151 /* SegmentControl */ = {
 			isa = PBXGroup;
 			children = (
+				C3A8E47429F8326D0079680D /* ResultsTabSelector */,
+				C35B78DD29F6E4E800F3E151 /* SegmentControl */,
 				C35B78D629F6DA1500F3E151 /* MultiStateButton */,
 				C35B78AD29F69DF100F3E151 /* PickerPlus */,
 				C35B78A629F68F9200F3E151 /* DefaultPicker */,
@@ -117,6 +135,7 @@
 				C35B78B629F6BDDC00F3E151 /* ControlsDemoView.swift */,
 				C35B789E29F686B400F3E151 /* SegmentedControlView.swift */,
 				C35B78D729F6DA7900F3E151 /* SegmentControlButton.swift */,
+				C3A8E48129F835540079680D /* SegmentButton.swift */,
 				C35B78A029F6870B00F3E151 /* Color+Palette.swift */,
 				C35B789329F6862200F3E151 /* Assets.xcassets */,
 				C35B789829F6862200F3E151 /* SegmentControl.entitlements */,
@@ -178,6 +197,27 @@
 				C35B78DB29F6DAE800F3E151 /* assertionFailure.swift */,
 			);
 			path = MultiStateButton;
+			sourceTree = "<group>";
+		};
+		C35B78DD29F6E4E800F3E151 /* SegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				C35B78DE29F6E50900F3E151 /* SegmentControl+macOS.swift */,
+			);
+			path = SegmentControl;
+			sourceTree = "<group>";
+		};
+		C3A8E47429F8326D0079680D /* ResultsTabSelector */ = {
+			isa = PBXGroup;
+			children = (
+				C3A8E47529F832980079680D /* ResultsTabSelectorView.swift */,
+				C3A8E47729F832D70079680D /* ResultsTab.swift */,
+				C3A8E47929F8330F0079680D /* OldSegmentButton.swift */,
+				C3A8E47B29F833520079680D /* Icons.swift */,
+				C3A8E47D29F834290079680D /* PreviewContainer.swift */,
+				C3A8E47F29F834CA0079680D /* HoverColor.swift */,
+			);
+			path = ResultsTabSelector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,17 +292,22 @@
 			files = (
 				C35B78D129F6D8DE00F3E151 /* IconRightLabel.swift in Sources */,
 				C35B78D829F6DA7900F3E151 /* SegmentControlButton.swift in Sources */,
+				C3A8E47829F832D70079680D /* ResultsTab.swift in Sources */,
 				C35B78B529F69F2600F3E151 /* SimpleItem.swift in Sources */,
 				C35B78C729F6D79400F3E151 /* ButtonLabelIconPosition.swift in Sources */,
 				C35B78BF29F6D65F00F3E151 /* ButtonContentMode.swift in Sources */,
 				C35B78B929F6D4E800F3E151 /* MultiStateButtonStyle.swift in Sources */,
 				C35B78AF29F69E0200F3E151 /* PickerPlus.swift in Sources */,
+				C35B78DF29F6E50900F3E151 /* SegmentControl+macOS.swift in Sources */,
+				C3A8E47629F832980079680D /* ResultsTabSelectorView.swift in Sources */,
 				C35B78AC29F691E100F3E151 /* StyledPicker.swift in Sources */,
 				C35B78BD29F6D62100F3E151 /* ButtonContentSize.swift in Sources */,
 				C35B78DC29F6DAE800F3E151 /* assertionFailure.swift in Sources */,
 				C35B78CB29F6D81F00F3E151 /* LoadingIndicator+macOS.swift in Sources */,
+				C3A8E47C29F833520079680D /* Icons.swift in Sources */,
 				C35B78A329F68F4B00F3E151 /* DefaultPickerExamples.swift in Sources */,
 				C35B78BB29F6D52600F3E151 /* ButtonColorStyle.swift in Sources */,
+				C3A8E47E29F834290079680D /* PreviewContainer.swift in Sources */,
 				C35B789029F6862000F3E151 /* SegmentControlApp.swift in Sources */,
 				C35B78CF29F6D89900F3E151 /* IconLeftLabel.swift in Sources */,
 				C35B78B129F69E4F00F3E151 /* VerticalItem.swift in Sources */,
@@ -271,11 +316,14 @@
 				C35B78DA29F6DABD00F3E151 /* ActionCompletion.swift in Sources */,
 				C35B78AA29F6908300F3E151 /* PickerLimitations.swift in Sources */,
 				C35B78A129F6870B00F3E151 /* Color+Palette.swift in Sources */,
+				C3A8E47A29F8330F0079680D /* OldSegmentButton.swift in Sources */,
 				C35B78C529F6D75B00F3E151 /* LoadingKey.swift in Sources */,
 				C35B78D529F6D97D00F3E151 /* IconLabel.swift in Sources */,
 				C35B78C929F6D7CA00F3E151 /* ButtonLabelPacking.swift in Sources */,
+				C3A8E48029F834CA0079680D /* HoverColor.swift in Sources */,
 				C35B78D329F6D93C00F3E151 /* NoIconLabel.swift in Sources */,
 				C35B78A529F68F8100F3E151 /* OwnedVehicles.swift in Sources */,
+				C3A8E48229F835540079680D /* SegmentButton.swift in Sources */,
 				C35B78B329F69E8B00F3E151 /* Shape+FillBorder.swift in Sources */,
 				C35B78C329F6D71A00F3E151 /* ButtonLabel.swift in Sources */,
 				C35B78CD29F6D85300F3E151 /* NSProgressIndicator+extensions.swift in Sources */,

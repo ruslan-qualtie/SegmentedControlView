@@ -1,4 +1,3 @@
-// https://blog.logrocket.com/build-swiftui-segmented-customizable-control/
 import SwiftUI
 
 @main
